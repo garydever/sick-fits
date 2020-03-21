@@ -1,3 +1,4 @@
+  
 #endpoint: ${env:PRISMA_ENDPOINT}
 endpoint: https://us1.prisma.sh/garythomasdever-ca5251/sickfits/dev
 datamodel: datamodel.prisma
@@ -5,4 +6,4 @@ datamodel: datamodel.prisma
 hooks:
   post-deploy:
     - graphql get-schema -p prisma
-     
+    
