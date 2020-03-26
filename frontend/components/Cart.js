@@ -8,7 +8,7 @@ import CartStyles from './styles/CartStyles';
 import Supreme from './styles/Supreme';
 import CloseButton from './styles/CloseButton';
 import CartItem from './CartItem';
-import calcTotalPric from '../lib/calcTotalPrice';
+import calcTotalPrice from '../lib/calcTotalPrice';
 import formatMoney from '../lib/formatMoney';
 
 const LOCAL_STATE_QUERY = gql`
@@ -48,7 +48,7 @@ const Cart = () => (
               cartItem={cartItem} />)}
             </ul>
             <footer>
-              <p>{formatMoney(calcTotalPric(me.cart))}</p>
+              <p>{formatMoney(calcTotalPrice(me.cart))}</p>
               <SickButton>Checkout</SickButton>    
             </footer>
           </CartStyles>

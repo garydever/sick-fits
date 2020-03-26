@@ -678,7 +678,7 @@ var Nav = function Nav() {
         onClick: toggleCart,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
       }, "My Cart", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CartCount__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -687,7 +687,7 @@ var Nav = function Nav() {
         }, 0),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         },
         __self: this
       }));
@@ -695,13 +695,13 @@ var Nav = function Nav() {
       href: "/signup",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 39
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 40
       },
       __self: this
     }, "Sign in")));
@@ -1635,7 +1635,7 @@ function createClient(_ref) {
             var _cache$readQuery = cache.readQuery({
               query: _components_Cart__WEBPACK_IMPORTED_MODULE_3__["LOCAL_STATE_QUERY"]
             }),
-                cartOpen = _cache$readQuery.cartOpen; // Write the cart state to the opposite
+                cartOpen = _cache$readQuery.cartOpen; // Write the cart State to the opposite
 
 
             var data = {
